@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+from mws import mws
+
+
+if __name__ == "__main__":
+    mws.cli()
