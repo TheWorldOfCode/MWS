@@ -31,8 +31,8 @@ def arguments():
     # Server
     #server_group = client_server.add_argument_group()
     #server_group.add_mutually_exclusive_group()
-    client_server.add_argument("-s", "--server", help="Launch the server as daemon", action="store_true")
     client_server.add_argument("-k", "--kill", help="Kill the server", action="store_true")
+    client_server.add_argument("-s", "--server", help="Launch the server as daemon", action="store_true")
 
     args = parser.parse_args()
 
